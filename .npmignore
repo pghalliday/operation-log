@@ -1,0 +1,6 @@
+.DS_Store
+*.coffee
+src/
+test/
+perf/
+Gruntfile.coffee

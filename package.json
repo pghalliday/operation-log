@@ -1,0 +1,51 @@
+{
+  "name": "operation-log",
+  "description": "A synchronous implementation of a limit order based currency market",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pghalliday/operation-log",
+  "author": {
+    "name": "Peter Halliday",
+    "email": "pghalliday@gmail.com",
+    "url": "http://stuffpetedoes.blogspot.nl/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pghalliday/operation-log.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pghalliday/operation-log/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pghalliday/operation-log/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/src/",
+  "engines": {
+    "node": ">= 0.10.4"
+  },
+  "scripts": {
+    "prepublish": "grunt",
+    "test": "grunt"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~1.5.0",
+    "grunt-cli": "~0.1.7",
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-mocha-test": "~0.2.2",
+    "grunt-contrib-clean": "~0.4.1",
+    "sinon": "~1.6.0",
+    "sinon-chai": "~2.4.0",
+    "randgen": "0.0.2"
+  },
+  "keywords": [
+    "currency",
+    "trading",
+    "limit order",
+    "synchronous",
+    "market"
+  ]
+}
